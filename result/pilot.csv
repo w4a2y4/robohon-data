@@ -1,3 +1,5 @@
 subj,trial_num,target_num,nontarget_num,err_of_commission,omission,anticipation,nontarget_rt_mean
+Y-01,600,60,540,25.000,1.481,0.000,514.983
+Y-02,600,60,540,20.000,0.000,0.185,437.637
 Y-03,600,60,540,18.333,9.444,0.185,520.182
 Y-04,600,60,540,6.667,2.778,0.000,510.895
