@@ -1,10 +1,10 @@
 import csv
 
 # FILE_NAME = 'Y-03_SART_201902131053.csv'
-FILE_NAME = 'Y-02.csv'
+FILE_NAME = 'Y01.csv'
 
 INPUT_FILE = 'behavior/' + FILE_NAME
-OUTPUT_FILE = 'result/pilot.csv'
+OUTPUT_FILE = 'result/formal.csv'
 SUBJECT_ID = FILE_NAME[:4]
 
 target_num = 0
