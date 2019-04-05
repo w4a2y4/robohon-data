@@ -2,11 +2,12 @@ import csv
 import numpy as np
 
 FILE_LIST = [
-	'Y01.csv', 'Y02.csv', 'Y03.csv', 'Y04.csv', 'Y05.csv', 'Y06.csv', 'Y07.csv',
-	'Y10.csv', 'Y11.csv', 'Y12.csv'
+	'Y14.csv', 'Y15.csv'
+	# 'Y01.csv', 'Y02.csv', 'Y03.csv', 'Y04.csv', 'Y05.csv', 'Y06.csv', 'Y07.csv',
+	# 'Y10.csv', 'Y11.csv', 'Y12.csv'
 ]
 
-of = open('result/blocks_pb.csv', 'a', newline='')
+of = open('result/blocks.csv', 'a', newline='')
 writer = csv.writer(of)
 writer.writerow(['subj','block','eoc','omission','anticipation','RT','RTCV','probe1','probe2'])
 
