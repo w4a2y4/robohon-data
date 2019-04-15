@@ -2,9 +2,11 @@ import csv
 import numpy as np
 
 FILE_LIST = [
-	'Y14.csv', 'Y15.csv'
+	# 'Y14.csv', 'Y15.csv'
 	# 'Y01.csv', 'Y02.csv', 'Y03.csv', 'Y04.csv', 'Y05.csv', 'Y06.csv', 'Y07.csv',
-	# 'Y10.csv', 'Y11.csv', 'Y12.csv'
+	# 'Y10.csv', 'Y11.csv', 'Y12.csv',
+	'Y09.csv', 'Y08.csv', 'Y13.csv', 'Y16.csv', 'Y17.csv', 'Y18.csv', 'Y19.csv',
+	'Y20.csv', 'Y21.csv', 'Y22.csv', 'Y23.csv'
 ]
 
 of = open('result/blocks.csv', 'a', newline='')
